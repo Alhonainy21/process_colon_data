@@ -18,3 +18,6 @@ mv *png /colon_gen/train/colon_n
 cd ..
 rm -r train*
 cd ../../..
+cd colon_gen
+cp -r train /colon
+cd ..
