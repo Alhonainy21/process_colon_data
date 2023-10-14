@@ -1,32 +1,20 @@
 #!/bin/bash
 cd /
-tar -zxvf ccc
-mv colon_chameleon colon
-cd colon
+curl -L -o fff https://www.dropbox.com/scl/fi/ebg49y0dmjpzl270acrhv/generated_colon_chameleon_6_nodes.tar.gz?rlkey=2b8d2i2t53g8z7lhftahukfqh&dl=0
+tar -zxvf fff
+mv generated_colon_chameleon colon_gen
+cd colon_gen
 find -name '._*' -delete
-cd test
-cd colon_aca
-cd test_aca3
-mv *jpeg /colon/test/colon_aca
-cd ..
-rm -r test*
-cd ..
-cd colon_n
-cd test_n_3
-mv *jpeg /colon/test/colon_n
-cd ..
-rm -r test*
-cd ../..
 cd train
 cd colon_aca
 cd train_aca_3
-mv *jpeg /colon/train/colon_aca
+mv *png /colon_gen/train/colon_aca
 cd ..
 rm -r train*
 cd ..
 cd colon_n
 cd train_n_3
-mv *jpeg /colon/train/colon_n
+mv *png /colon_gen/train/colon_n
 cd ..
 rm -r train*
 cd ../../..
