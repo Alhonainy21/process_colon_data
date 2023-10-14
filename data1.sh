@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /
-tar -zxvf ccc
+tar -zxvf fff
 mv colon_chameleon colon
 cd colon
 find -name '._*' -delete
