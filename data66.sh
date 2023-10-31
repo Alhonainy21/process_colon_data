@@ -1,7 +1,7 @@
 #!/bin/bash
-cd /
-curl -L -o fff https://www.dropbox.com/scl/fi/7siu38wlhtvnc33dxkbsz/ct_80_6_node.tar.gz?rlkey=4ffjm93wiedr8bktyr6qkbpcs&dl=0
-tar -zxvf fff
+#cd /
+#curl -L -o fff https://www.dropbox.com/scl/fi/7siu38wlhtvnc33dxkbsz/ct_80_6_node.tar.gz?rlkey=4ffjm93wiedr8bktyr6qkbpcs&dl=0
+#tar -zxvf fff
 #mv generated_colon_chameleon colon_gen
 cd ct_80
 find -name '._*' -delete
