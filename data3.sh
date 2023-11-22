@@ -1,20 +1,34 @@
 #!/bin/bash
 cd /
-curl -L -o fff https://www.dropbox.com/scl/fi/ebg49y0dmjpzl270acrhv/generated_colon_chameleon_6_nodes.tar.gz?rlkey=2b8d2i2t53g8z7lhftahukfqh&dl=0
-tar -zxvf fff
-mv generated_colon_chameleon colon_gen
-cd colon_gen
+curl -L -o sss https://www.dropbox.com/scl/fi/ysusxqjrg0x5p0p92jcbc/6_nodes.tar.gz?rlkey=my8dv4j965vpq4z96o1z0axk9&dl=0
+tar -zxvf sss
+mv 6_nodes data
+cd data
 find -name '._*' -delete
+cd test
+cd class_0
+cd test_03
+mv *jpeg /data/test/class_0
+cd ..
+rm -r test*
+cd ..
+cd class_1
+cd test_13
+mv *jpeg /data/test/class_1
+cd ..
+rm -r test*
+cd ../..
 cd train
-cd colon_aca
-cd train_aca_3
-mv *png /colon_gen/train/colon_aca
+cd 
+cd class_0
+cd train_03
+mv *jpeg /data/train/class_0
 cd ..
 rm -r train*
 cd ..
-cd colon_n
-cd train_n_3
-mv *png /colon_gen/train/colon_n
+cd class_1
+cd train_13
+mv *jpeg /data/train/class_1
 cd ..
 rm -r train*
 cd ../../..
