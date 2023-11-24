@@ -6,7 +6,6 @@ mv data48 data9
 cd data9
 find -name '._*' -delete
 cd train
-cd 
 cd class_0
 cd train_01
 mv *jpeg /data9/train/class_0
