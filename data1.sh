@@ -8,13 +8,13 @@ find -name '._*' -delete
 cd train
 cd class_0
 cd train_01
-mv *jpeg /data9/train/class_0
+mv *png /data9/train/class_0
 cd ..
 rm -r train*
 cd ..
 cd class_1
 cd train_11
-mv *jpeg /data9/train/class_1
+mv *png /data9/train/class_1
 cd ..
 rm -r train*
 cd ../../..
