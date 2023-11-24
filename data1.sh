@@ -7,13 +7,13 @@ cd data9
 find -name '._*' -delete
 cd train
 cd class_0
-cd train_01
+cd train_04
 mv *png /data9/train/class_0
 cd ..
 rm -r train*
 cd ..
 cd class_1
-cd train_11
+cd train_14
 mv *png /data9/train/class_1
 cd ..
 rm -r train*
