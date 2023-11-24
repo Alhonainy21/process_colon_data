@@ -5,19 +5,6 @@ tar -zxvf lll
 mv data48 data9
 cd data9
 find -name '._*' -delete
-cd test
-cd class_0
-cd test_01
-mv *jpeg /data9/test/class_0
-cd ..
-rm -r test*
-cd ..
-cd class_1
-cd test_11
-mv *jpeg /data9/test/class_1
-cd ..
-rm -r test*
-cd ../..
 cd train
 cd 
 cd class_0
